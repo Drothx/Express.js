@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/main.css">
+  <title>Contact</title>
+</head>
+<body>
+  <a href="/" id="backlink"><button type="button">Retour à l'accueil</button></a>
+  <h1>Nous contacter</h1>
+  <form>
+    <label for="pseudo">Pseudo : </label>
+    <input type="text" name="pseudo" id="pseudo" required placeholder="Votre pseudo...">
+    <label for="email">E-mail : </label>
+    <input type="email" name="email" id="email" required placeholder="Votre e-mail...">
+    <label for="message">Message : </label>
+    <textarea name="message" id="message" required placeholder="Que souhaitez-vous nous dire ?"></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+  <p id="notifMessage"></p>
+  <script src="/script/contact.js"></script>
+</body>
+</html>

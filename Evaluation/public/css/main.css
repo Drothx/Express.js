@@ -1,0 +1,105 @@
+body {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  overflow: scroll;
+  padding: 0;
+}
+
+nav {
+  height: 30%;
+}
+
+ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+ul li {
+  align-self: baseline;
+  font-size: 1.3rem;
+  font-weight: bold;
+  list-style-type: none;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+ul > li > p {
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+body > p:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+label, input, textarea {
+  margin: 5px;
+  padding: 0;
+  width: 100%;
+}
+
+input {
+  height: 30px;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+button {
+  align-self: flex-start;
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 7px;
+  text-align: left;
+}
+
+#backlink {
+  align-self: baseline;
+}
+
+#usersList {
+  display: flex;
+  width: auto;
+}
+
+#usersList li {
+  align-items: center;
+  justify-content: center;
+}
+
+#notifMessage {
+  color: darkolivegreen;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
